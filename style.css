@@ -1,0 +1,25 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+#cooltext span {
+  display: none;
+}
+.animation {
+  animation-name: textslide;
+  animation-duration: 2s;
+}
+
+@keyframes textslide {
+  0% {
+    transform: translateY(1000px);
+  }
+  98% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
