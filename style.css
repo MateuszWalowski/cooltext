@@ -14,12 +14,14 @@
 
 @keyframes textslide {
   0% {
+    opacity: 0;
     transform: translateY(1000px);
   }
   98% {
     transform: translateY(-20px);
   }
   100% {
+    opacity: 1;
     transform: translate(0);
   }
 }

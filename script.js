@@ -29,7 +29,7 @@ function addanimation() {
         letter.classList.add("animation");
       }, N * 100);
     } else {
-      letter.innerHTML = "&nbsp" + letter.textContent;
+      letter.innerHTML = "&nbsp";
       letter.style.display = "inline-block";
     }
     console.log(letter.textContent);
